@@ -16,12 +16,12 @@ on:
 jobs:
   # This workflow contains a single job called "build"
  
-  call-workflow:
-    uses: octo-org/example-repo/.github/workflows/ci.yml
+    call-workflow:
+     uses:github/workflows/ci.yml@main
 
-  call-workflow-passing-data:
-    uses: octo-org/example-repo/.github/workflows/workflow-B.yml@main
-    with:
+    call-workflow-passing-data:
+     uses: octo-org/example-repo/.github/workflows/workflow-B.yml@main
+     with:
       username: mona
     secrets:
       token: ${{ secrets.TOKEN }}
