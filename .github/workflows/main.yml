@@ -14,12 +14,3 @@ jobs:
     with:
          username: sneha
    
-  example_job:
-    name: Pass input and secrets to my-action
-    runs-on: windows-latest
-    steps:
-    - name: convert py to pyc
-      run: |
-        
-        python -m py_compile main.py
- 
