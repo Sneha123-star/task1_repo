@@ -9,8 +9,12 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
- 
-    call-workflow:
+   - name: Calling template workflow
+      call-workflow:
       uses: Sneha123-star/git_1/.github/workflows/ci.yml@main
       with:
          username: sneha
+   - name: Checkout
+      uses: actions/checkout@v2     
+      
+          
