@@ -13,5 +13,5 @@ jobs:
     uses: Sneha123-star/git_1/.github/workflows/ci.yml@main
     with:
          username: sneha
-         repo_name: Sneha123-star/task1_repo/.github/workflows
-         repo_path: Sneha123-star/task1_repo/.github/workflows
+         repo_name: Sneha123-star/task1_repo
+         repo_path: task1_repo
